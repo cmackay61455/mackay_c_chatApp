@@ -1,0 +1,23 @@
+{
+  "name": "mackay_c_chatapp",
+  "version": "1.0.0",
+  "description": "social media app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmackay61455/mackay_c_chatApp.git"
+  },
+  "author": "caitlin mackay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmackay61455/mackay_c_chatApp/issues"
+  },
+  "homepage": "https://github.com/cmackay61455/mackay_c_chatApp#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
