@@ -14,7 +14,7 @@ function appendMessage(message) {
 const vm = new Vue({
     date: {
         socketID: "",
-        nackmane: "",
+        nickname: "",
         message: "",
         messages: []
     },

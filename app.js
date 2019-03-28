@@ -5,7 +5,7 @@ const app = express();
 const io = require('socket.io')();
 
 //some config stuff
-const port = process.env.PORT || 3030;
+const port = process.env.PORT || 4000;
 
 //tell our app to use the public folder for static files
 app.use(express.static('public'));
