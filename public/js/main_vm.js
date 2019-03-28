@@ -8,11 +8,12 @@ function setUserId({sID, message}) {
 }
 
 function appendMessage(message) {
+    debugger;
     vm.messages.push(message);
 }
 
 const vm = new Vue({
-    date: {
+    data: {
         socketID: "",
         nickname: "",
         message: "",
