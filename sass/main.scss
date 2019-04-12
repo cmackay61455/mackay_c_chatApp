@@ -5,7 +5,7 @@
 
 html, body { height: 100%; }
 
-body { font: 16px Helvetica, Arial; }
+body { font: 16px Copperplate Gothic, Arial; }
 
 main { 
 	display: flex;
@@ -15,7 +15,7 @@ main {
 .form-container, .messages { padding: 20px; }
 .form-container { 
 	flex: 1; 
-	border: 6px solid #bfcfd6;
+	border: 6px solid #f8beee;
 	background-color: #e3edf1;
 
 	label { display: block; margin-bottom: 0.5rem; }

@@ -7,16 +7,22 @@
 	<script src="https://unpkg.com/vue"></script> 
 </head>
 <body>
-	<main id="app">		
+	<main id="app">	
+		
 		<section class="form-container">
+
+				<img src="images/cat.svg">
+
 			<label for="nickname">Your Nickname (optional)</label>
 			<input v-model="nickname" type="text" id="nickname" class="nickname" placeholder="What is your nickname?">
 			
 			<form>
 				<label for="message">Something to say?</label>
 				<textarea v-model="message" class="message" type="text" autocomplete="off" id="textarea"></textarea>
-				<input value="Submit" type="submit" @click.prevent="dispatchMessage">
+				<input type="submit" @click.prevent="dispatchMessage">
 			</form>
+
+			<img src="images/cat.png">
 		</section>
 		
 		<section class="messages">
@@ -24,7 +30,11 @@
                 <!-- render the message component here-->
                 <newmessage :msg="message"></newmessage>
 			</ul>
-		</section>		
+			
+			
+		</section>	
+		
+	
 	</main>
 	<script src="/socket.io/socket.io.js"></script>
 	<script type="module" src="js/main_vm.js"></script>
